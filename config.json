@@ -5,7 +5,7 @@
         "skipAudits": ["redirects-http"],
         "disableStorageReset": true,
         "maxWaitForLoad": 90000,
-        "throttling": "desktopDense4G"
+        "throttling.throughputKbps": 20000
       }
     }
   }
