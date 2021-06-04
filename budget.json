@@ -17,7 +17,7 @@
           "budget": 1300
         },
         {
-          "resourceType": "total",
+          "resourceType": "total", 
           "budget": 1400
         }
       ],
