@@ -16,6 +16,7 @@ jobs:
             https://staging.dex.software/project/add/source
             https://staging.dex.software/account/login
           budgetPath: ./budget.json # test performance budgets
+          configPath: ./config.json # Config path
           uploadArtifacts: true # save results as an action artifacts
           temporaryPublicStorage: true # upload lighthouse report to the temporary storage
           useThrottling: False

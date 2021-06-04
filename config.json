@@ -1,0 +1,15 @@
+{
+    "passes": [
+      {
+        "passName": "fastPass",
+        "gatherers": ["fast-gatherer"]
+      },
+      {
+        "passName": "slowPass",
+        "recordTrace": true,
+        "useThrottling": true,
+        "networkQuietThresholdMs": 5000,
+        "gatherers": ["slow-gatherer"]
+      }
+    ]
+  }
