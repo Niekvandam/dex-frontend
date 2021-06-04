@@ -5,7 +5,8 @@
         "skipAudits": ["redirects-http"],
         "disableStorageReset": true,
         "maxWaitForLoad": 90000,
-        "throttlingMethod": "devtools"
+        "throttlingMethod": "devtools",
+        "downloadThroughputKbps": 10000 
       }
     }
   }
